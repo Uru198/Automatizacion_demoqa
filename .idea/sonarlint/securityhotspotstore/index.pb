@@ -23,3 +23,5 @@ l
 <src/main/java/co/com/screenplay/project/utils/DataFaker.java,4\a\4a941591d9d99a355ecca1337c39d00425c927f5
 ~
 Nsrc/main/java/co/com/screenplay/project/questions/ValidateElementsTextBtn.java,e\e\ee84f6effa07fe964697f1def022274bc2ecfce4
+~
+Nsrc/main/java/co/com/screenplay/project/tasks/ChooseSubElementsRandomTask.java,3\e\3e225d7bc6b09b90646b57dbb775c55809cadcff

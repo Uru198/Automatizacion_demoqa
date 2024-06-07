@@ -1,7 +1,7 @@
 package co.com.screenplay.project.stepdefinition;
 
 import co.com.screenplay.project.questions.ValidateElementsTextBtn;
-import co.com.screenplay.project.tasks.ChooseRandomTask;
+import co.com.screenplay.project.tasks.ChooseSubElementsRandomTask;
 import co.com.screenplay.project.tasks.FuntionsElementsTask;
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
@@ -42,15 +42,15 @@ public class OpenWebStep {
     @When("selecciona aleatoriamente alguna de las subfunciones")
     public void randomlySelectsSomeOfTheSubfunctions() {
         OnStage.theActorCalled(ACTOR).attemptsTo(
-                ChooseRandomTask.witchParams(fakerNumberOneAndNine())
+                ChooseSubElementsRandomTask.witchParams(fakerNumberOneAndNine())
         );
     }
 
+    // gracias al Slf4j nos ahorramos el codigo del else {}
     @Then("visualizara en la cabecera el nombre de la opción elegida")
     public void willDisplayInTheHeaderTheNameOfTheChosenOption() {
         String validateText = OnStage.theActor(ACTOR).recall(REMEMBER_TEXT_BTN_SUB_ELEMENTS);
         if (validateText != null) {
-            // gracias al Slf4j nos ahorramos el codigo del else {}
             log.info(validateText);
         }
         //El actor es el centeo de atencion donde debe validar el validateText (REMEMBER_TEXT_BTN_SUB_ELEMENTS)

@@ -14,7 +14,7 @@ Característica: Abrir una pagina web
     Dado "Andres" abre el sitio web de pruebas
 
   @successful
-  Escenario: abrir con el navegador la pagina web X
+  Escenario: validacion en la funcion del ID Card Elements
     Y desea validar la funcion de la carta de elementos
     Cuando selecciona aleatoriamente alguna de las subfunciones
     Entonces visualizara en la cabecera el nombre de la opción elegida
