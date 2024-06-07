@@ -1,0 +1,22 @@
+<!-- Aqui le estamos diciendo que esta configuracion  tiene unos parametros cuando este
+de los reportes en buil.gradle reports = ["single-page-html"] va a publicar la hora la fecha
+de los reportes
+-->
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <logger name="root" level="WARN"/>
+    <logger name="net.serenitybdd" level="INFO"/>
+    <logger name="net.thucydides" level="INFO"/>
+
+    <root level="INFO">
+        <appender-ref ref="STDOUT"/>
+    </root>
+
+</configuration>
