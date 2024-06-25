@@ -17,11 +17,19 @@ f
 6src/main/java/co/com/screenplay/project/ui/HomeUI.java,9\4\9480ea4770cc4f06bd286c01f79ccbe50db5c275
 w
 Gsrc/main/java/co/com/screenplay/project/tasks/FuntionsElementsTask.java,1\6\164806fa4049b4896f5c8a9eac05d74eb9831ef8
-s
-Csrc/main/java/co/com/screenplay/project/tasks/ChooseRandomTask.java,4\4\44b63a90e6cce9e659b7dd61dca97de1d462e5ea
 l
 <src/main/java/co/com/screenplay/project/utils/DataFaker.java,4\a\4a941591d9d99a355ecca1337c39d00425c927f5
 ~
 Nsrc/main/java/co/com/screenplay/project/questions/ValidateElementsTextBtn.java,e\e\ee84f6effa07fe964697f1def022274bc2ecfce4
 ~
 Nsrc/main/java/co/com/screenplay/project/tasks/ChooseSubElementsRandomTask.java,3\e\3e225d7bc6b09b90646b57dbb775c55809cadcff
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+7
+gradlew,5\b\5bbfa66edb4db3c7c33c5181f43510990d3307f9
+9
+	Readme.md,0\c\0c1945d7443c2e154bd3e421c0d438bd4086d8c3
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
