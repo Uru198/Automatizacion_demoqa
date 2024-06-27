@@ -1,8 +1,8 @@
 package co.com.screenplay.project.stepdefinition;
 
 import co.com.screenplay.project.questions.ValidateElementsTextBtn;
-import co.com.screenplay.project.tasks.ChooseSubElementsRandomTask;
-import co.com.screenplay.project.tasks.FuntionsElementsTask;
+import co.com.screenplay.project.tasks.*;
+
 import io.cucumber.java.Before;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;

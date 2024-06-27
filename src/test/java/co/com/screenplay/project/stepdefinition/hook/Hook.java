@@ -26,7 +26,7 @@ public class Hook {
         //aqui le pasamos al actor por parametro el cual esta en el feature en dado "Andres"
         //Luego que intente attemptsTo() llamar una clase
         OnStage.theActorCalled(actor).attemptsTo(
-                OpenWeb.browserURL(WEB_URL)
+                OpenWeb.browserURL(WEB_URL_MAP) //Para cambiar de proyecto lo cambiamos a WEB_URL
         );
         //despues de que se habra la pagina web espere un tiempo corto TIME_SHORT siendo una costante
         waiting(TIME_SHORT);
@@ -37,7 +37,7 @@ public class Hook {
                 GivenWhenThen.seeThat(
                         //Aqui se aplica la sobrecarga tiene varias formas de implementar este metodo
                         TheWebPage.title(),
-                        Matchers.containsString(TITLE)
+                        Matchers.containsString(TITLE_WEBSITE) //Para cambiar de proyecto lo cambiamos a TITLE
                 )
         );
 
